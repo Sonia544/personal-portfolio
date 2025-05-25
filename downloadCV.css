@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #022136;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  .downloadCV {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background: #110137;
+    background: linear-gradient(to right, #011f30, #032634);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .downloadCV h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
+  
+  .downloadCV p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .downloadCV .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: white;
+    color: #0072ff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadCV .btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Section Styling */
+  .cv-section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+  }
+  
+  .cv-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #003366;
+    border-bottom: 2px solid #00c6ff;
+    padding-bottom: 5px;
+  }
+  
+  .cv-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .cv-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .cv-section a {
+    color: #0072ff;
+    text-decoration: none;
+  }
+  
+  .cv-section a:hover {
+    text-decoration: underline;
+  }
+  
